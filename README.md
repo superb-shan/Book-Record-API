@@ -4,18 +4,18 @@ This is a book management API built with Mongoose, MongoDB, express and ofcourse
 
 ## /users
 
-POST: Create a new user
-GET: Fetch the list of user
+- POST: Create a new user
+- GET: Fetch the list of user
 
 ## /users/{id}
 
-GET: Get the user by id
-PUT: Update a user by id
-DELETE: Delete a user by id (Only if he doesn't have any unreturned book) (Is there any fine pending?)
+- GET: Get the user by id
+- PUT: Update a user by id
+- DELETE: Delete a user by id (Only if he doesn't have any unreturned book) (Is there any fine pending?)
 
 ## /users/subscription-details/{id}
 
-GET: Get the subscription details of a user by id
+- GET: Get the subscription details of a user by id
 
 1. Date of Subscription
 2. Valid till
@@ -23,22 +23,22 @@ GET: Get the subscription details of a user by id
 
 ## /books
 
-GET: Get the list of all the bookd
-POST: Create/Add a new book
+- GET: Get the list of all the bookd
+- POST: Create/Add a new book
 
 ## /books/{id}
 
-GET: Get a book by id
-PUT: Update a book by id
-DELETE: Delete a book by id
+- GET: Get a book by id
+- PUT: Update a book by id
+- DELETE: Delete a book by id
 
 ## /books/issued
 
-GET: Get the list of issued books
+- GET: Get the list of issued books
 
 ## /boos/issued/withFine
 
-GET: Get the list of issued books with fine
+- GET: Get the list of issued books with fine
 
 # Subscriptions:
 
