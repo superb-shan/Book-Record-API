@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "name": "book-record-api",
+  "description": "This is a book management API built with Mongoose, MongoDB, express and ofcourse NodeJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superb-shan/Book-Record-API.git"
+  },
+  "author": "Shankar K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superb-shan/Book-Record-API/issues"
+  },
+  "homepage": "https://github.com/superb-shan/Book-Record-API#readme"
+}
