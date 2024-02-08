@@ -2,7 +2,7 @@ This is a book management API built with Mongoose, MongoDB, express and ofcourse
 
 # Routes and Endpoints
 
-## /users
+## /users 
 
 - POST: Create a new user
 - GET: Fetch the list of user
